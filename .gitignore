@@ -1,1 +1,31 @@
+# Ignorar configurações do VSCode
+.vscode/
+
+# Ignorar o ambiente virtual (caso você use venv)
+venv/
+env/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignorar o arquivo com segredos do Streamlit
 .streamlit/secrets.toml
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos PDF que não precisam ser versionados
+*.pdf
