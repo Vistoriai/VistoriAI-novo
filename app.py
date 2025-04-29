@@ -71,5 +71,5 @@ def gerar_token_automatico(servico, nome, telefone, email):
     return link
 
 # Exemplo de uso (será chamado após pagamento confirmado)
-# novo_link = gerar_token_automatico('motor', 'João Silva', '+5511999999999', 'joao@email.com')
-# print(novo_link)
+novo_link = gerar_token_automatico('motor', 'João Silva', '+5511999999999', 'joao@email.com')
+print(novo_link)
